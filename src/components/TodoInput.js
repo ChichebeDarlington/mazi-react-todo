@@ -17,7 +17,7 @@ class TodoInput extends Component {
        </div>
        <input type="text"
          autoFocus={
-             editItem? "needs-validated":"needs-validated"
+             editItem? "was-validated":"needs-validated"
          }
         className='form-control text-capitalize
         mb-3'
